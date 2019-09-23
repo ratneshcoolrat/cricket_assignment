@@ -29,7 +29,12 @@
 
 ## Seeder?
 
-v Yes
+- Yes
+- command: php artisan migrate:refresh --seed
+
+## DATABASE DUMP
+
+- Path:DATABASE-DUMP\cricketdemo.sql
 
 ## New Directory?
 
