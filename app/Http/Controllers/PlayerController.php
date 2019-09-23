@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class PlayerController extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * Display a listing of the Players.
      *
      * @return \Illuminate\Http\Response
      */
@@ -17,7 +17,7 @@ class PlayerController extends Controller
     }
 
     /**
-     * Show the form for creating a new resource.
+     * Show the form for creating a new Players.
      *
      * @return \Illuminate\Http\Response
      */
@@ -27,7 +27,7 @@ class PlayerController extends Controller
     }
 
     /**
-     * Store a newly created resource in storage.
+     * Store a newly created Players in storage.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
@@ -38,7 +38,7 @@ class PlayerController extends Controller
     }
 
     /**
-     * Display the specified resource.
+     * Display the specified Players.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -49,7 +49,7 @@ class PlayerController extends Controller
     }
 
     /**
-     * Show the form for editing the specified resource.
+     * Show the form for editing the specified Players.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -60,7 +60,7 @@ class PlayerController extends Controller
     }
 
     /**
-     * Update the specified resource in storage.
+     * Update the specified Players in storage.
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  int  $id
@@ -72,7 +72,7 @@ class PlayerController extends Controller
     }
 
     /**
-     * Remove the specified resource from storage.
+     * Remove the specified Players from storage.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response

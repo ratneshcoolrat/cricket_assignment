@@ -2,14 +2,18 @@
 /*
  * Copyright US Tech Solutions. 
  * All rights reserved.
- * File: MatchContract.php
+ * File: constant.php
  * Project: Cricket Assignment
  * Author: Ratnesh Kumar Rai
  * CreatedOn: date (22/09/2019) 
 */
-namespace App\Helpers\Contracts;
 
-interface MatchContract {
 
-    public function getMatchList();
-}
+return [
+    'PAGINATION_LIMIT' => 5,
+    'PAGINATION_DEFAULT' => 5,
+];
+
+
+
+

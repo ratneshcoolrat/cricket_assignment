@@ -13,7 +13,7 @@ class MatchController extends Controller
         $this->match = $match;
     }
     /**
-     * Display a listing of the resource.
+     * Display a listing of the Matches.
      *
      * @return \Illuminate\Http\Response
      */
@@ -25,7 +25,7 @@ class MatchController extends Controller
     }
 
     /**
-     * Show the form for creating a new resource.
+     * Show the form for creating a new Matches.
      *
      * @return \Illuminate\Http\Response
      */
@@ -35,7 +35,7 @@ class MatchController extends Controller
     }
 
     /**
-     * Store a newly created resource in storage.
+     * Store a newly created Matches in storage.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
@@ -46,7 +46,7 @@ class MatchController extends Controller
     }
 
     /**
-     * Display the specified resource.
+     * Display the specified Matches.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -57,7 +57,7 @@ class MatchController extends Controller
     }
 
     /**
-     * Show the form for editing the specified resource.
+     * Show the form for editing the specified Matches.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -68,7 +68,7 @@ class MatchController extends Controller
     }
 
     /**
-     * Update the specified resource in storage.
+     * Update the specified Matches in storage.
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  int  $id
@@ -80,7 +80,7 @@ class MatchController extends Controller
     }
 
     /**
-     * Remove the specified resource from storage.
+     * Remove the specified Matches from storage.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response

@@ -1,5 +1,12 @@
 <?php
-
+/*
+ * Copyright US Tech Solutions. 
+ * All rights reserved.
+ * File: Match.php
+ * Project: Cricket Assignment
+ * Author: Ratnesh Kumar Rai
+ * CreatedOn: date (22/09/2019) 
+*/
 namespace App\Helpers\Implement;
 
 use App\Helpers\Contracts\MatchContract;

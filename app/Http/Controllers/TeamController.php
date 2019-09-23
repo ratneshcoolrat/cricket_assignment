@@ -13,7 +13,7 @@ class TeamController extends Controller
         $this->team = $team;
     }
     /**
-     * Display a listing of the resource.
+     * Display a listing of the Team.
      *
      * @return \Illuminate\Http\Response
      */
@@ -25,7 +25,7 @@ class TeamController extends Controller
     }
 
     /**
-     * Show the form for creating a new resource.
+     * Show the form for creating a new Team.
      *
      * @return \Illuminate\Http\Response
      */
@@ -35,7 +35,7 @@ class TeamController extends Controller
     }
 
     /**
-     * Store a newly created resource in storage.
+     * Store a newly created Team in storage.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
@@ -46,20 +46,20 @@ class TeamController extends Controller
     }
 
     /**
-     * Display the specified resource.
+     * Display the specified Team.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
     public function show($id)
-    {
+    { 
         $response = $this->team->getTeamDetails($id);
         $data = ['response'=>$response];
         return view('teamDetails', $data);
     }
 
     /**
-     * Show the form for editing the specified resource.
+     * Show the form for editing the specified Team.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -70,7 +70,7 @@ class TeamController extends Controller
     }
 
     /**
-     * Update the specified resource in storage.
+     * Update the specified Team in storage.
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  int  $id
@@ -82,7 +82,7 @@ class TeamController extends Controller
     }
 
     /**
-     * Remove the specified resource from storage.
+     * Remove the specified Team from storage.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response

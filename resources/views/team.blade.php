@@ -31,13 +31,13 @@
                                     <div class="col-xs-4 col-sm-4 img-ctn-on-mobile pd-l-25 pd-r-25">
                                         @if(isset($data->logo_uri) && ($data->logo_uri != NULL))
 
-                                        <a href="{{route('team.show', $data->id)}}"><img src="{{$data->logo_uri}}" width="100" height="100"  alt="logo"></a>
+                                        <a href="{{URL('team/'.$data->id) }}"><img src="{{$data->logo_uri}}" width="100" height="100"  alt="logo"></a>
                                                         @else
-                                                            <a href="{{route('team.show', $data->id)}}"><img src="/images/default.png" width="100" height="100" alt="logo"></a>
+                                                            <a href="{{URL('team/'.$data->id) }}"><img src="/images/default.png" width="100" height="100" alt="logo"></a>
                                                         @endif
                                     </div>
                                     <div class="col-xs-4 col-sm-4">
-                                        <a href="{{route('team.show', $data->id)}}"><p class="my-md-5">{{ $data->name }}</p></a>
+                                        <a href="{{URL('team/'.$data->id) }}"><p class="my-md-5">{{ $data->name }}</p></a>
                                     </div>
                                     <div class="col-xs-4 col-sm-4">
                                         <p class="my-md-5">{{ $data->club_state }}</p>

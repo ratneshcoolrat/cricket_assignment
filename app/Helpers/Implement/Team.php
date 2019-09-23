@@ -1,5 +1,12 @@
 <?php
-
+/*
+ * Copyright US Tech Solutions. 
+ * All rights reserved.
+ * File: Team.php
+ * Project: Cricket Assignment
+ * Author: Ratnesh Kumar Rai
+ * CreatedOn: date (22/09/2019) 
+*/
 namespace App\Helpers\Implement;
 
 use App\Helpers\Contracts\TeamContract;
@@ -17,7 +24,7 @@ class Team implements TeamContract {
     
     public function getTeamList(){
         
-        return $this->teamModel->orderBy('name')->paginate(5);
+        return $this->teamModel->orderBy('name')->paginate(config('constant.PAGINATION_LIMIT'));
         
     }
     

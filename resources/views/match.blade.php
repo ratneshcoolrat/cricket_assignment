@@ -31,10 +31,11 @@
                                      @foreach ($response as $data)
                                     
                                     <div class="col-xs-4 col-sm-4">
-                                        <p class="my-md-5">{{ $data['first_team_details']['name'] }} Vs {{ $data['second_team_details']['name'] }}</p>
+                                        <p class="my-md-5"><img src="{{$data['first_team_details']['logo_uri']}}" width="50" height="50"  alt="logo"> Vs <img src="{{$data['second_team_details']['logo_uri']}}" width="50" height="50"  alt="logo"></p>
+                                        
                                     </div>
                                     <div class="col-xs-4 col-sm-4">
-                                        <p class="my-md-5">{{ $data['winner_details']['name'] }}</p>
+                                        <p class="my-md-5"><img src="{{$data['winner_details']['logo_uri']}}" width="50" height="50"  alt="logo"></p>
                                     </div>
                                      <div class="col-xs-4 col-sm-4">
                                         <p class="my-md-5">{{ date('Y-m-d H:i',strtotime($data['held_on'])) }}</p>

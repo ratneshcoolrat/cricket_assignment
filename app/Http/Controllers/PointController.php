@@ -13,7 +13,7 @@ class PointController extends Controller
         $this->point = $point;
     }
     /**
-     * Display a listing of the resource.
+     * Display a listing of the Points.
      *
      * @return \Illuminate\Http\Response
      */
@@ -25,7 +25,7 @@ class PointController extends Controller
     }
 
     /**
-     * Show the form for creating a new resource.
+     * Show the form for creating a new Points.
      *
      * @return \Illuminate\Http\Response
      */
@@ -35,7 +35,7 @@ class PointController extends Controller
     }
 
     /**
-     * Store a newly created resource in storage.
+     * Store a newly created Points in storage.
      *
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
@@ -46,7 +46,7 @@ class PointController extends Controller
     }
 
     /**
-     * Display the specified resource.
+     * Display the specified Points.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -57,7 +57,7 @@ class PointController extends Controller
     }
 
     /**
-     * Show the form for editing the specified resource.
+     * Show the form for editing the specified Points.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -68,7 +68,7 @@ class PointController extends Controller
     }
 
     /**
-     * Update the specified resource in storage.
+     * Update the specified Points in storage.
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  int  $id
@@ -80,7 +80,7 @@ class PointController extends Controller
     }
 
     /**
-     * Remove the specified resource from storage.
+     * Remove the specified Points from storage.
      *
      * @param  int  $id
      * @return \Illuminate\Http\Response

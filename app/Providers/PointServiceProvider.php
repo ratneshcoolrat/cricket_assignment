@@ -1,4 +1,12 @@
 <?php
+/*
+ * Copyright US Tech Solutions. 
+ * All rights reserved.
+ * File: PointServiceProvider.php
+ * Project: Cricket Assignment
+ * Author: Ratnesh Kumar Rai
+ * CreatedOn: date (22/09/2019) 
+*/
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;

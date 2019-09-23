@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 class TeamController extends Controller
 {
     protected $team;
+    use \App\Traits\ResponseFormatterTrait;
     
     public function __construct(TeamContract $team) {
         $this->team = $team;
@@ -18,10 +19,8 @@ class TeamController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
-        $response = $this->team->getTeamList();
-        $data = ['response'=>$response];
-        return view('team', $data);
+    { 
+        return $response = $this->team->getTeamList();
     }
 
     /**

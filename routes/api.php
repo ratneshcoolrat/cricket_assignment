@@ -18,6 +18,12 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 
-Route::resource('team', 'TeamController');
-Route::get('matches', 'MatchController@index');
-Route::resource('points', 'PointController');
+Route::resource('team', 'Api\TeamController', ['only' => [
+        'index', 'show'
+]]);
+Route::resource('matches', 'Api\MatchController', ['only' => [
+        'index'
+]]);
+Route::resource('points', 'Api\PointController', ['only' => [
+        'index'
+]]);
